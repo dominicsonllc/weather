@@ -1,0 +1,19 @@
+<h1>Weather Forecast!</h1>
+
+<form>
+  <div>
+    Enter a US address with the zipcode at the end
+    <br>
+    (or just a zipcode will do):
+    <br>
+    <%= text_area_tag :address %>
+    <%= submit_tag 'submit' %>
+  </div>
+</form>
+
+<br>
+<div id='cache_notice'>
+  Note: if a cache exists it will appear below:
+</div>
+
+<img id='cached' src=''>
