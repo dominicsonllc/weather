@@ -13,9 +13,8 @@ To run:
 * With your browser go to http://localhost:3000   
 * Enter a US address with the zipcode at the end (or just a zipcode will do)
 * It will generate a screenshot of the weather
-* If you go back and re-enter an address with the same zipcode, it will show the cache.
+* If you go back and re-enter an address with the same zipcode, it will show the cache
   
 
   
 -Dominic S
-408.585.5555
