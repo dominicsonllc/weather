@@ -1,7 +1,7 @@
 # README
 This app allows you to enter an address to retrieve the weather forecast. This initial prototype is only for the US due to this being a weekend project. 
 
-Since it does not use a database and there is no file structure, so no models exist as conventionally found in a Rails app. 
+Since it does not use a database there is no file structure, so no models exist as conventionally found in a Rails app. 
 Instead it uses the service Wttr.in to fetch and saves the PNG screenshot. These image files serve as the cache for that ZIP Code. 
 
 Zip codes are expired by deleting the files found in the public/zip codes folder via cron jobs using the whenever gem. The file config/schedule.rb executes lib/tasks/forecast.rake task 'delete_expired'. 
